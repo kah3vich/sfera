@@ -1,0 +1,767 @@
+@@include('components/_header.html')
+
+    <header class="header">
+        <div class="container">
+            <nav class="header__nav">
+                <div class="header__nav-logo">
+                    @@include('iconsprite/header-logo.svg')
+                </div>
+                <div class="header__nav-menu">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item header__nav-active">
+                            <a href="#">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#">
+                                Платформа
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#">
+                                Вопросы
+                            </a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#">
+                                Блог
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="header__nav-btn"><a href="#">Войти</a></button>
+                    <a href="#">
+                        <div class="header__nav-burger">
+                            @@include('iconsprite/menu.svg')
+                        </div>
+                    </a>
+                </div>
+            </nav>
+            <div class="header__content">
+                <div class="header__text">
+                    <div class="header__text-add">ДОБРО ПОЖАЛОВАТЬ В <span>СФЕРУ</span></div>
+                    <div class="header__text-title">Преподаватели онлайн <br>Уроки на платформе</div>
+                    <div class="header__text-info">Направления</div>
+                    <ul class="header__text-list">
+                        <li class="header__text-item"><a href="#">Домашнее задание</a></li>
+                        <li class="header__text-item"><a href="#">Школа</a></li>
+                        <li class="header__text-media-item"><a href="#">Школа</a></li>
+                    </ul>
+                    <ul class="header__text-list">
+                        <li class="header__text-item"><a href="#">Регистрация</a></li>
+                        <li class="header__text-item"><a href="#">Обучение</a></li>
+                        <li class="header__text-media-item"><a href="#">Школа</a></li>
+                    </ul>
+                    <ul class="header__text-list">
+                        <li class="header__text-item"><a href="#">Регистрация</a></li>
+                        <li class="header__text-item"><a href="#">Школа</a></li>
+                        <li class="header__text-media-item"><a href="#">Школа</a></li>
+                    </ul>
+                </div>
+                <div class="header__image">
+                    <img src="./img/header/img-header-content.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="header__line">
+            <div class="header__line-container">
+                <div class="header__line-title">Летние скидки 50%</div>
+                <div class="header__line-time">
+                    <div class="header__line-text-container">
+                        <div class="header__line-text-item">
+                            <span class="count" id="days"></span>
+                            <span> дня </span>
+                        </div>
+                        <div class="header__line-text-item">
+                            <span class="count" id="hours"></span>
+                            <span>:</span>
+                        </div>
+                        <div class="header__line-text-item">
+                            <span class="count" id="minutes"></span>
+                            <span>:</span>
+                        </div>
+                        <div class="header__line-text-item">
+                            <span class="count" id="seconds"></span>
+                        </div>
+                    </div>
+                </div>
+                <button class="header__line-btn"><a href="#">Начать обучение</a></button>
+            </div>
+        </div>
+    </header>
+    <section class="info">
+        <div class="container">
+            <div class="info__text">
+                <div class="info__text-text">
+                    Актуальные знания от признанных экспертов рынка для новичков и практикующих специалистов
+                </div>
+                <div class="info__text-number">
+                    <div class="info__text-number-container">
+                        <div class="info__text-number-item coun-1" data-target="563">563</div>
+                        <div class="info__text-number-text">Курса</div>
+                    </div>
+                    <div class="info__text-number-container">
+                        <div class="info__text-number-item coun-2" data-target="647">647</div>
+                        <div class="info__text-number-text">Кураторов</div>
+                    </div>
+                    <div class="info__text-number-container">
+                        <div class="info__text-number-item coun-3" data-target="247585">247585</div>
+                        <div class="info__text-number-text">Пользователей</div>
+                    </div>
+                </div>
+                <div class="info__text-add">
+                    Актуальные знания от признанных экспертов рынка для новичков и практикующих специалистов Актуальные знания от признанных экспертов рынка для новичков и практикующих специалистов Актуальные знания от признанных экспертов рынка для новичков и практикующих специалистов
+                </div>
+            </div>
+            <div class="info__platform">
+                <div class="info__platform-title">Как платформа изменит вашу жизнь</div>
+                <ul class="info__platform-list">
+                    <li class="info__platform-item">
+                        <div class="info__platform-item-img">
+                            <img src="./img/info/platform-4.png" alt="">
+                        </div>
+                        <div class="info__platform-item-text">
+                            Улучшение оценок и успеваемости
+                        </div>
+                    </li>
+                    <li class="info__platform-item">
+                        <div class="info__platform-item-img">
+                            <img src="./img/info/platform-3.png" alt="">
+                        </div>
+                        <div class="info__platform-item-text">
+                            Родители освобождаются от излишнего контроля  и освобождает больше времени на себя, потому что на платформе он может получить отчет о прогрессе 
+                        </div>
+                    </li>
+                    <li class="info__platform-item">
+                        <div class="info__platform-item-img">
+                            <img src="./img/info/platform-1.png" alt="">
+                        </div>
+                        <div class="info__platform-item-text">
+                            Меньше времени на выполнение домашних заданий. Когда ребенок опережает школьную программу, он щелкает пройденные этапы как орешки
+                        </div>
+                    </li>
+                    <li class="info__platform-item">
+                        <div class="info__platform-item-img">
+                            <img src="./img/info/platform-2.png" alt="">
+                        </div>
+                        <div class="info__platform-item-text">
+                            Ребенку становится нравиться учиться за счет завлекающей геймификации и интерактивных механик
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="info__background">
+            @@include('iconsprite/info-bg.svg')
+        </div>
+        <div class="info__background-media">
+            @@include('iconsprite/info-bg.svg')
+        </div>
+    </section>
+    <section class="scope">
+        <div class="container">
+            <div class="scope__text">
+                <div class="scope__text-title">Как проходит обучение в Сфере</div>
+                <div class="scope__text-add">На интерактивной доске происходит то то се то много чего интересного просто очень классно и уывлекательно ребенок такой вау круто хочу учиться здесь мне все нравится мама пожалуйста отдай им все деньги</div>
+            </div>
+        </div>
+        <div class="scope__pos">
+            <div class="container">
+                <div class="scope__pos-block scope__pos-block-1">
+                    <div class="scope__pos-block-number">01</div>
+                    <div class="scope__pos-block-text">Выбор преподавателя по вашим требованиям</div>
+                </div>
+                <div class="scope__pos-block scope__pos-block-2">
+                    <div class="scope__pos-block-number">02</div>
+                    <div class="scope__pos-block-text">Бесплатный вводный урок Знакомство с вашим преподавателем</div>
+                </div>
+                <div class="scope__pos-block scope__pos-block-3">
+                    <div class="scope__pos-block-number">03</div>
+                    <div class="scope__pos-block-text">Получите индивидуальный план обучения для Вашего ребенка</div>
+                </div>
+                <div class="scope__pos-block scope__pos-block-4">
+                    <div class="scope__pos-block-number">04</div>
+                    <div class="scope__pos-block-text">Постройте удобный график обучения</div>
+                </div>
+                <div class="scope__pos-block scope__pos-block-5">
+                    <div class="scope__pos-block-number">05</div>
+                    <div class="scope__pos-block-text">Начните заниматься 🎉</div>
+                </div>
+                <div class="scope__pos-add scope__pos-add-1">
+                    <img src="./img/scope/scope-1.png" alt="">
+                </div> 
+                <div class="scope__pos-add scope__pos-add-2">
+                    <img src="./img/scope/scope-2.png" alt="">
+                </div> 
+                <div class="scope__pos-add scope__pos-add-3">
+                    <img src="./img/scope/scope-3.png" alt="">
+                </div> 
+                <div class="scope__pos-line scope__pos-line-1">
+                    @@include('iconsprite/scope-line-1.svg')
+                </div>
+                <div class="scope__pos-line scope__pos-line-2">
+                    @@include('iconsprite/scope-line-2.svg')
+                </div>
+                <div class="scope__pos-line scope__pos-line-3">
+                    @@include('iconsprite/scope-line-3.svg')
+                </div>
+                <div class="scope__pos-line scope__pos-line-4">
+                    @@include('iconsprite/scope-line-4.svg')
+                </div>
+                <div class="scope__pos-pc scope__pos-pc-1">
+                    <img src="./img/scope/scope-img.png" alt="">
+                </div>
+                <div class="scope__pos-pc scope__pos-pc-2">
+                    <img src="./img/scope/scope-bg.png" alt="">
+                </div>
+                <!-- - -->
+                <div class="scope__pos-media-line scope__pos-media-line-1">
+                    @@include('iconsprite/media-line-1.svg')
+                </div>
+                <div class="scope__pos-media-line scope__pos-media-line-2">
+                    @@include('iconsprite/media-line-2.svg')
+                </div>
+                <div class="scope__pos-media-line scope__pos-media-line-3">
+                    @@include('iconsprite/media-line-3.svg')
+                </div>
+                <div class="scope__pos-media-line scope__pos-media-line-4">
+                    @@include('iconsprite/media-line-4.svg')
+                </div>
+                <div class="scope__pos-media-add scope__pos-media-add-1">
+                    <img src="./img/media/smail-1.png" alt="">
+                </div>
+                <div class="scope__pos-media-add scope__pos-media-add-2">
+                    <img src="./img/media/smail-2.png" alt="">
+                </div>
+                <div class="scope__pos-media-add scope__pos-media-add-3">
+                    <img src="./img/media/smail-3.png" alt="">
+                </div>
+                <div class="scope__pos-media-pc scope__pos-media-pc-1">
+                    <img src="./img/media/media-pc-1.png" alt="">
+                </div>
+                <div class="scope__pos-media-pc scope__pos-media-pc-2">
+                    <img src="./img/media/media-pc-2.png" alt="">
+                </div>
+                <div class="scope__pos-container">
+                    <a href="#">
+                        <button class="scope__pos-btn">Начать обучение</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="steps">
+        <div class="container">
+            <div class="steps__info">
+                <div class="steps__info-title">4 шага к переменам в карьере и жизни</div>
+                <div class="steps__info-video">
+                    <video muted autoplay width="100%" loop controls src="https://storage.coverr.co/videos/1u3NDx000294gyBM9pBBemXOAIOyPb51di?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjMwMTU0MjkzfQ.p6zWEqnBj5_J_J1T3wuhoWcZMuYmcM6bCJl_7W6FU00"></video>
+                </div>
+                <div class="steps__info-block">
+                    <div class="steps__info-items">
+                        <div class="steps__info-items-icons">
+                            <img src="./img/steps/svg-1.png" alt="">
+                        </div>
+                        <div class="steps__info-items-text">
+                            Бесплатный вводный урок Знакомство с вашим преподавателем
+                        </div>
+                    </div>
+                    <div class="steps__info-items">
+                        <div class="steps__info-items-icons">
+                            <img src="./img/steps/svg-2.png" alt="">
+                        </div>
+                        <div class="steps__info-items-text">
+                            Бесплатный вводный урок Знакомство с вашим преподавателем
+                        </div>
+                    </div>
+                    <div class="steps__info-items">
+                        <div class="steps__info-items-icons">
+                            <img src="./img/steps/svg-2.png" alt="">
+                        </div>
+                        <div class="steps__info-items-text">
+                            Бесплатный вводный урок Знакомство с вашим преподавателем
+                        </div>
+                    </div>
+                    <div class="steps__info-items">
+                        <div class="steps__info-items-icons">
+                            <img src="./img/steps/svg-1.png" alt="">
+                        </div>
+                        <div class="steps__info-items-text">
+                            Бесплатный вводный урок Знакомство с вашим преподавателем
+                        </div>
+                    </div>
+                </div>
+                <ul class="steps__info-list">
+                    <li class="steps__info-item">
+                        <div class="steps__info-item-number">01</div>
+                        <div class="steps__info-item-text">Пишите формулы,стройте графики и геометрические фигуры</div>
+                        <div class="steps__info-item-img">
+                            <img src="./img/steps/steps-list-1.png" alt="">
+                        </div>
+                        <div class="steps__info-media-img">
+                            <img src="./img/media/list-image-1.png" alt="">
+                        </div>
+                    </li>
+                    <li class="steps__info-item">
+                        <div class="steps__info-item-number">02</div>
+                        <div class="steps__info-item-text">Общайтесь с преподавателем в реальном времени по видеосвязи, а также в чате</div>
+                        <div class="steps__info-item-img">
+                            <img src="./img/steps/steps-list-3.png" alt="">
+                        </div>
+                        <div class="steps__info-media-img">
+                            <img src="./img/media/list-image-2.png" alt="">
+                        </div>
+                    </li>
+                    <li class="steps__info-item">
+                        <div class="steps__info-item-number">03</div>
+                        <div class="steps__info-item-text">Отправляйте домашнее задание на проверку через загрузку файлов</div>
+                        <div class="steps__info-item-img">
+                            <img src="./img/steps/steps-list-2.png" alt="">
+                        </div>
+                        <div class="steps__info-media-img">
+                            <img src="./img/media/list-image-3.png" alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="purpose">
+        <div class="container">
+            <div class="purpose__info">
+                <div class="purpose__info-title">Помогаем добиваться поставленных целей</div>
+                <div class="purpose__info-text">Уже на первом занятии оценим ваш уровень знаний и составим план обучения. Онлайн-уроки экономят ваше время и силы - учитесь там, где вам удобно</div>
+                <ul class="purpose__info-list">
+                    <li class="purpose__info-item">
+                        <div class="purpose__info-number">88%</div>
+                        <div class="purpose__info-add">Учеников Сферы поступили в вузы на бюджет</div>
+                    </li>
+                    <li class="purpose__info-item">
+                        <div class="purpose__info-number">4,7</div>
+                        <div class="purpose__info-add">Средний балл успеваемости наших учеников в школе</div>
+                    </li>
+                    <li class="purpose__info-item">
+                        <div class="purpose__info-number">81+</div>
+                        <div class="purpose__info-add">Результаты ЕГЭ наших учеников на 20% выше среднего результата по России</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="reviews">
+        <div class="container">
+            <div class="reviews__block">
+                <div class="reviews__block-title">Отзывы о Сфере</div>
+                <div class="reviews__block-slider">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="reviews__slide">
+                                    <div class="reviews__slide-name"><p>Дарья Овтина</p></div>
+                                    <video autoplay muted loop src="https://storage.coverr.co/videos/APGhrxtJca3Bq802YPkO3I9ujrbMxZaV02?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjMwMTU4MDI3fQ.T9tYf0YQQSYmlLuG1p-FTBk8I9wDsWYOMY25Embu1eA" class="reviews__slide-video"></video>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews__slide">
+                                    <div class="reviews__slide-name"><p>Елена Шишкина</p></div>
+                                    <video autoplay muted loop src="https://storage.coverr.co/videos/APGhrxtJca3Bq802YPkO3I9ujrbMxZaV02?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjMwMTU4MDI3fQ.T9tYf0YQQSYmlLuG1p-FTBk8I9wDsWYOMY25Embu1eA" class="reviews__slide-video"></video>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews__slide">
+                                    <div class="reviews__slide-name"><p>Петр Лаврентьев</p></div>
+                                    <video autoplay muted loop src="https://storage.coverr.co/videos/APGhrxtJca3Bq802YPkO3I9ujrbMxZaV02?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjMwMTU4MDI3fQ.T9tYf0YQQSYmlLuG1p-FTBk8I9wDsWYOMY25Embu1eA" class="reviews__slide-video"></video>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews__slide">
+                                    <div class="reviews__slide-name"><p>Софья Кравец</p></div>
+                                    <video autoplay muted loop src="https://storage.coverr.co/videos/APGhrxtJca3Bq802YPkO3I9ujrbMxZaV02?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjMwMTU4MDI3fQ.T9tYf0YQQSYmlLuG1p-FTBk8I9wDsWYOMY25Embu1eA" class="reviews__slide-video"></video>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews__slide">
+                                    <div class="reviews__slide-name"><p>Петр Лаврентьев</p></div>
+                                    <video autoplay muted loop src="https://storage.coverr.co/videos/APGhrxtJca3Bq802YPkO3I9ujrbMxZaV02?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjMwMTU4MDI3fQ.T9tYf0YQQSYmlLuG1p-FTBk8I9wDsWYOMY25Embu1eA" class="reviews__slide-video"></video>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="reviews__slide">
+                                    <div class="reviews__slide-name"><p>Софья Кравец</p></div>
+                                    <video autoplay muted loop src="https://storage.coverr.co/videos/APGhrxtJca3Bq802YPkO3I9ujrbMxZaV02?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjMwMTU4MDI3fQ.T9tYf0YQQSYmlLuG1p-FTBk8I9wDsWYOMY25Embu1eA" class="reviews__slide-video"></video>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="partners">
+        <div class="container">
+            <div class="partners__info">
+                <div class="partners__info-title">Сотрудничаем с ведущими вузами</div>
+                <div class="partners__info-text">Сотрудничаем с ведущими вузами страны и их преподавателями</div>
+                <div class="partners__info-block">
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-1.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-1-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-2.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-2-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-3.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-3-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-1.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-1-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-2.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-2-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-3.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-3-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-1.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-1-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-2.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-2-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-3.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-3-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-1.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-1-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-2.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-2-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-3.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-3-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-1.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-1-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-2.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-2-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-3.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-3-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                    <div class="partners__info-items">
+                        <img src="./img/partners/partners-1.png" alt="" class="partners__info-items-img">
+                        <img src="./img/partners/partners-1-h.png" alt="" class="partners__info-items-imgh">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="selection">
+        <div class="container">
+            <div class="selection__item">
+                <div class="selection__item-title">Помощь в подборе репетитора</div>
+                <div class="selection__item-add">
+                    <div class="selection__item-text">Выбор предмета</div>
+                    <div class="selection__item-number">Шаг 1 из 8</div>
+                </div>
+                <div class="selection__item-content">
+                    <div class="selection__item-content-text">
+                        <div class="selection__item-content-text-title">Что будете изучать?</div>
+                        <div class="selection__item-content-text-add">Можно выбрать только один предмет. 
+                            Если вам нужны репетиторы по нескольким предметам, то придется создать отдельные запросы  по каждому предмету.</div>
+                    </div>
+                    <div class="selection__item-content-input">
+                        <input type="text" class="selection__item-content-input-module" placeholder="Введите предмет">
+                    </div>
+                </div>
+                <ul class="selection__item-step">
+                    <li class="selection__item-step-item">
+                        <div class="selection__item-step-circle selection__item-step-circle-active"></div>
+                        <div class="selection__item-step-text">Выбор предмета</div>
+                    </li>
+                    <li class="selection__item-step-item">
+                        <div class="selection__item-step-circle"></div>
+                        <div class="selection__item-step-text">Выбор длительности и интенсивности</div>
+                    </li>
+                    <li class="selection__item-step-item">
+                        <div class="selection__item-step-circle"></div>
+                        <div class="selection__item-step-text">Место проведения</div>
+                    </li>
+                    <li class="selection__item-step-item">
+                        <div class="selection__item-step-circle"></div>
+                        <div class="selection__item-step-text">Время проведения занятий</div>
+                    </li>
+                    <li class="selection__item-step-item">
+                        <div class="selection__item-step-circle"></div>
+                        <div class="selection__item-step-text">Требования к репетитору</div>
+                    </li>
+                    <li class="selection__item-step-item">
+                        <div class="selection__item-step-circle"></div>
+                        <div class="selection__item-step-text">Об ученике</div>
+                    </li>
+                    <li class="selection__item-step-item">
+                        <div class="selection__item-step-circle"></div>
+                        <div class="selection__item-step-text">Стоимость занятия</div>
+                    </li>
+                    <button class="selection__item-step-btn">Далее</button>
+                    <div class="selection__item-step-block"></div>
+                </ul>
+                <div class="selection__item-step-btn-container">
+                    <button class="selection__item-step-btnm">Далее</button>
+                </div>
+            </div>
+            <div class="selection__time" style="display: none;">
+                <div class="selection__time-title">Помощь в подборе репетитора</div>
+                <div class="selection__time-add">
+                    <div class="selection__time-text">Выбор длительности и интенсивности</div>
+                    <div class="selection__time-number">Шаг 2 из 8</div>
+                </div>
+                <div class="selection__time-content">
+                    <div class="selection__time-content-text">
+                        <div class="selection__time-content-text-title">Какая будет длительность ?</div>
+                        <div class="selection__time-content-text-add">Можно выбрать только один предмет. 
+                            Если вам нужны репетиторы по нескольким предметам, то придется создать отдельные запросы по каждому предмету.</div>
+                    </div>
+                    <div class="selection__time-blocks">
+                        <div class="selection__time-blocks-title">
+                            Длительность курса занятий
+                        </div>
+                        <div class="selection__time-checkbox">
+                            <input class="selection__time-checkbox-input" type="radio" id="checkbox_1" name="check-1"> 
+                            <label class="selection__time-checkbox-label" for="checkbox_1">Длительный курс</label>
+                        </div>
+                        <div class="selection__time-checkbox">
+                            <input class="selection__time-checkbox-input" type="radio" id="checkbox_2" name="check-1">
+                            <label class="selection__time-checkbox-label" for="checkbox_2">Короткий курс (до четырех занятий)</label>
+                        </div>
+                        <div class="selection__time-checkbox">
+                            <input class="selection__time-checkbox-input" type="radio" id="checkbox_3" name="check-1">
+                            <label class="selection__time-checkbox-label" for="checkbox_3">Однократная консультация</label>
+                        </div>
+                        <div class="selection__time-blocks-title">
+                            Интенсивность курса занятий
+                        </div>
+                        <div class="selection__time-checkbox">
+                            <input class="selection__time-checkbox-input" type="radio" id="checkbox_4"name="check-2">
+                            <label class="selection__time-checkbox-label" for="checkbox_4">Два раза и более в неделю</label>
+                        </div>
+                        <div class="selection__time-checkbox">
+                            <input class="selection__time-checkbox-input" type="radio" id="checkbox_5" name="check-2">
+                            <label class="selection__time-checkbox-label" for="checkbox_5">Раз в неделю</label>
+                        </div>
+                        <div class="selection__time-checkbox">
+                            <input class="selection__time-checkbox-input" type="radio" id="checkbox_6" name="check-2">
+                            <label class="selection__time-checkbox-label" for="checkbox_6">Реже одного раза в неделю</label>
+                        </div>
+                    </div>
+                </div>
+                <ul class="selection__time-step">
+                    <li class="selection__time-step-item">
+                        <div class="selection__time-step-circle"></div>
+                        <div class="selection__time-step-text">Выбор предмета</div>
+                    </li>
+                    <li class="selection__time-step-item">
+                        <div class="selection__time-step-circle selection__time-step-circle-active"></div>
+                        <div class="selection__time-step-text">Выбор длительности и интенсивности</div>
+                    </li>
+                    <li class="selection__time-step-item">
+                        <div class="selection__time-step-circle"></div>
+                        <div class="selection__time-step-text">Место проведения</div>
+                    </li>
+                    <li class="selection__time-step-item">
+                        <div class="selection__time-step-circle"></div>
+                        <div class="selection__time-step-text">Время проведения занятий</div>
+                    </li>
+                    <li class="selection__time-step-item">
+                        <div class="selection__time-step-circle"></div>
+                        <div class="selection__time-step-text">Требования к репетитору</div>
+                    </li>
+                    <li class="selection__time-step-item">
+                        <div class="selection__time-step-circle"></div>
+                        <div class="selection__time-step-text">Об ученике</div>
+                    </li>
+                    <li class="selection__time-step-item">
+                        <div class="selection__time-step-circle"></div>
+                        <div class="selection__time-step-text">Стоимость занятия</div>
+                    </li>
+                    <button class="selection__time-step-btn">Далее</button>
+                    <div class="selection__time-step-block"></div>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="questions">
+        <div class="container">
+            <div class="questions__block">
+                <div class="questions__block-title">
+                    Часто задаваемые вопросы
+                </div>
+                <div class="skills__accordion">
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                </div>
+                <div class="questions__block-hidden questions__block-none">
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                    <div class="skills__accordion-item skills__accordion-item--skills__active">
+                        <div class="skills__accordion-item__trigger">
+                            Есть ли рассрочка?
+                        </div>
+                        <div class="skills__accordion-item__content">
+                            Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.Удалить анкету с портала можно самостоятельно в личном кабинете. Также система автоматически удалит анкету в случае отсутствия активности на портале в течение 3 месяцев. Предварительно за 2 недели на электронную почту придет письмо о предстоящем удалении анкеты.
+                        </div>
+                    </div>
+                </div>
+                <div class="questions__block-btn">
+                    <button class="questions__block-btn-open">Еще вопросы</button>
+                </div>
+                <div class="questions__block-btn">
+                    <button class="questions__block-btn-close questions__block-none">Свернуть</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__block">
+                <div class="footer__logo">
+                    <div class="footer__logo-img">
+                        <img src="./img/footer/footer-logo.png" alt="">
+                    </div>
+                    <div class="footer__logo-email">info@sferachild.ru</div>
+                    <div class="footer__logo-geo">Москва</div>
+                </div>
+                <div class="footer__nav">
+                    <div class="footer__nav-title">Навигация</div>
+                    <ul class="footer__nav-list">
+                        <li class="footer__nav-item">Главная</li>
+                        <li class="footer__nav-item">Платформа</li>
+                        <li class="footer__nav-item">Вопрос</li>
+                        <li class="footer__nav-item">Блог</li>
+                        <li class="footer__nav-item">Вход</li>
+                    </ul>
+                </div>
+                <div class="footer__info">
+                    <div class="footer__info-title">Информация</div>
+                    <ul class="footer__info-list">
+                        <li class="footer__info-item">Оферта</li>
+                        <li class="footer__info-item">Соглашение</li>
+                        <li class="footer__info-item">Сотрудничество</li>
+                        <li class="footer__info-item">Пресс-центр</li>
+                    </ul>
+                </div>
+                <div class="footer__scope">
+                    <div class="footer__scope-title">Образовательная сфера</div>
+                    <div class="footer__scope-text">Онлайн платформа дистанционного обучения</div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__doc">
+            <div class="footer__doc-text">© 2021 Все права защищены. ОГРН 1207700506507 ООО "Уникум". Сделано с любовью в bpump.ru</div>
+        </div>
+    </footer>
+
+
+
+
+@@include('components/_footer.html')

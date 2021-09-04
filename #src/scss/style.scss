@@ -1,0 +1,64 @@
+//! --------------------------------------------------------------------
+//! Подключение плагинов -----------------------------------------------
+//! --------------------------------------------------------------------
+
+@mixin font($font_name, $file_name, $weight, $style) {
+    @font-face {
+        font-family: $font_name;
+        font-display: swap;
+        src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+        font-weight: #{$weight};
+        font-style: #{$style};
+    }
+}
+
+
+//! --------------------------------------------------------------------
+//! Подключение плагинов -----------------------------------------------
+//! --------------------------------------------------------------------
+
+@import "fonts";
+@import "header";
+@import "info";
+@import "scope";
+@import "steps";
+@import "purpose";
+@import "reviews";
+@import "partners";
+@import "questions";
+@import "selection";
+@import "footer";
+@import "media";
+
+
+//! --------------------------------------------------------------------
+//! Подключение плагинов -----------------------------------------------
+//! --------------------------------------------------------------------
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #ffffff;
+}
+li {
+    list-style: none;
+}
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+a {
+	text-decoration: none;
+}
+.container {
+    max-width: 1400px;
+    padding: 0 130px;
+    margin: 0 auto;
+}

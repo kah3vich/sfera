@@ -1,0 +1,56 @@
+.purpose {
+    padding: 0 0 108px 0;
+    &__info {
+        &-title {
+            width: 855px;
+            height: 124px;
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 56px;
+            letter-spacing: -0.02em;
+            color: #333333;
+        }
+        &-text {
+            margin-top: 40px;
+            width: 1024px;
+            height: 99px;
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            color: #333333;
+        }
+        &-list {
+            margin-top: 58px;
+            display: flex;
+        }
+        &-item {
+            margin-right: 85px;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+        &-number {
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 100px;
+            letter-spacing: -0.02em;
+            color: #FF2A75;
+        }
+        &-add {
+            margin-top: 6px;
+            width: 208px;
+            font-family: Gilroy;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            text-transform: inherit;
+            color: #FF2A75;
+            &:last-child {
+                width: 70%;
+            }
+        }
+    }
+}

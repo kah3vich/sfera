@@ -1284,6 +1284,9 @@
     .info__platform-list {
         gap: 20px;
     }
+    .footer__scope-hr {
+        width: 230px;
+    }
 }
 @media (max-width: 530px) {
     .info__platform-item {
@@ -1293,6 +1296,9 @@
 @media (max-width: 500px) {
     .steps__info-media-img {
         width: 75%;
+    }
+    .footer__scope-hr {
+        width: 190px;
     }
     .steps__info-video {
         height: 230px;

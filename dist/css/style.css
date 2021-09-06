@@ -2683,6 +2683,12 @@
   margin-bottom: 0;
 }
 
+.footer__scope-hr {
+  width: 285px;
+  height: 0;
+  border-top: 2px solid #C4C4C4;
+}
+
 .footer__scope-title {
   font-family: Gilroy;
   font-style: normal;
@@ -2701,6 +2707,16 @@
   font-size: 20px;
   line-height: 24px;
   color: #C4C4C4;
+  margin-bottom: 20px;
+}
+
+.footer__scope-logo {
+  max-width: 150px;
+  margin-top: 30px;
+}
+
+.footer__scope-logo img {
+  max-width: 150px;
 }
 
 .footer__doc {
@@ -2723,6 +2739,21 @@
   font-size: 20px;
   text-align: center;
   color: #C4C4C4;
+}
+
+.footer__doc-text a {
+  color: #C4C4C4;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.footer__doc-text a:hover {
+  color: gray;
+  opacity: 0.9;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 * {
@@ -4408,6 +4439,10 @@ a {
   .info__platform-list {
     gap: 20px;
   }
+
+  .footer__scope-hr {
+    width: 230px;
+  }
 }
 
 @media (max-width: 530px) {
@@ -4419,6 +4454,10 @@ a {
 @media (max-width: 500px) {
   .steps__info-media-img {
     width: 75%;
+  }
+
+  .footer__scope-hr {
+    width: 190px;
   }
 
   .steps__info-video {

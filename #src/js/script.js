@@ -43,7 +43,7 @@ function countdown(dateEnd) {
 
     function display(days, hours, minutes, seconds) {}
 }
-countdown ('09/16/2021 01:00:00 AM');
+countdown ('11/16/2021 01:00:00 AM');
 
 
 // Счётчик чисел 
@@ -58,8 +58,8 @@ counters_1.forEach((counter) => {
         const target = +counter.getAttribute("data-target");
         const c = +counter.innerText;
         if( c < target ) {
-        counter.innerText = c + 7;
-        setTimeout(updateCounter, 1);
+        counter.innerText = c + 1;
+        setTimeout(updateCounter, 5);
         } else {
         counter.innerText = target;
         }
@@ -72,7 +72,7 @@ counters_2.forEach((counter) => {
         const target = +counter.getAttribute("data-target");
         const c = +counter.innerText;
         if( c < target ) {
-        counter.innerText = c + 7;
+        counter.innerText = c + 2;
         setTimeout(updateCounter, 1);
         } else {
         counter.innerText = target;
@@ -86,7 +86,7 @@ counters_3.forEach((counter) => {
         const target = +counter.getAttribute("data-target");
         const c = +counter.innerText;
         if( c < target ) {
-        counter.innerText = c + 666;
+        counter.innerText = c + 40;
         setTimeout(updateCounter, 1);
         } else {
         counter.innerText = target;

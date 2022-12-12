@@ -83,7 +83,7 @@ npm install
       <br/>
       <p>JavaScript</p>
     </td>
-       <td align="center" width="96">
+    <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/a0b5aba54a9ac8c40b00b52742c4b63f76ca3e4c/assets/icon/html5.svg" width="48" height="48" alt="HTML" />
       </a>
@@ -97,7 +97,7 @@ npm install
       <br/>
       <p>SCSS</p>
     </td>
-     <td align="center" width="96">
+    <td align="center" width="96">
       <a href="#">
         <img src="https://raw.githubusercontent.com/kah3vich/kah3vich/a0b5aba54a9ac8c40b00b52742c4b63f76ca3e4c/assets/icon/gulp.svg" width="48" height="48" alt="Gulp" />
       </a>
@@ -122,6 +122,12 @@ npm install
             <br/>
             <a href="https://github.com/kah3vich">Kah3vich</a>
             <p>Core Developer</p>
+        </td>
+        <td align="center" valign="top">
+            <img width="96" height="96" src="https://github.com/bpump.png?s=96">
+            <br/>
+            <a href="https://github.com/bpump">Bpump</a>
+            <p>Support</p>
         </td>
     </tr>
 </table>

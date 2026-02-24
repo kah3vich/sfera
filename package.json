@@ -1,13 +1,19 @@
 {
-  "name": "fls-gulp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "sfera",
+  "type": "module",
+  "author": {
+    "url": "https://github/kah3vich",
+    "name": "kah3vich",
+    "email": "kah3vich@proton.me"
   },
-  "author": "kah3vich_",
-  "license": "ISC",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "fonts": "gulp fonts",
+    "svg": "gulp svg_sprite",
+    "otf2ttf": "gulp otf2ttf"
+  },
   "devDependencies": {
     "browser-sync": "^2.27.5",
     "del": "^6.0.0",
